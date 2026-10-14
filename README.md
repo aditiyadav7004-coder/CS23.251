@@ -40,11 +40,21 @@ Lakshmangarh, Rajasthan
 ## Assignment 1 - POSITIVE, NEGATIVE OR ZERO
 
 ## CODE:
-```python
+```
+n = int(input("Enter a number: "))
+
+if n > 0:
+    print("Positive number")
+elif n < 0:
+    print("Negative number")
+else:
+    print("Zero")
 
 ```
 
 ## OUTPUT:
+Enter a number: 4
+Positive number
 
 
 ## ALGORITHM:
