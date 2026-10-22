@@ -611,6 +611,404 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 ## FLOWCHART:
 
 
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
+## Assignment 18 - 
+## CODE:
+```
+
+
+```
+
+## OUTPUT:
+
+
+
+## ALGORITHM:
+```python
+
+```
+
+## FLOWCHART:
+
+
 
 
 
