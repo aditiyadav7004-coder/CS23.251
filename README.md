@@ -630,6 +630,8 @@ bellman_ford(None, vertices, edges, source)
 
 ## OUTPUT:
 
+<img width="517" height="397" alt="image" src="https://github.com/user-attachments/assets/695bd9fc-5a8b-4d05-bb7a-3f24184f39de" />
+
 
 
 ## ALGORITHM:
@@ -689,6 +691,7 @@ dijkstra(graph, source)
 
 ## OUTPUT:
 
+<img width="696" height="363" alt="image" src="https://github.com/user-attachments/assets/48809ead-4fa9-4581-b536-0af984516e96" />
 
 
 ## ALGORITHM:
@@ -727,6 +730,8 @@ dfs(graph, 'A')
 ```
 
 ## OUTPUT:
+
+<img width="218" height="145" alt="image" src="https://github.com/user-attachments/assets/e7d8db08-d29b-4034-9fd0-e63669c9fed7" />
 
 
 
@@ -772,6 +777,8 @@ bfs(graph, 'A')
 
 ## OUTPUT:
 
+<img width="200" height="197" alt="image" src="https://github.com/user-attachments/assets/b43ebfdb-3fd8-4524-af03-11c92a33d68e" />
+
 
 
 ## ALGORITHM:
@@ -808,6 +815,8 @@ for vertex in graph:
 
 ## OUTPUT:
 
+<img width="455" height="527" alt="image" src="https://github.com/user-attachments/assets/b0ce5098-740d-4f78-b304-405763e44aac" />
+
 
 
 ## ALGORITHM:
@@ -835,6 +844,7 @@ for vertex in graph:
 
 ## OUTPUT:
 
+<img width="282" height="197" alt="image" src="https://github.com/user-attachments/assets/c3ccca8b-ee57-418f-afc0-59a1a5b73550" />
 
 
 ## ALGORITHM:
@@ -878,6 +888,7 @@ g.display()
 
 ## OUTPUT:
 
+<img width="331" height="225" alt="image" src="https://github.com/user-attachments/assets/b39cf88c-ebd2-4ea6-8b48-39209cf39281" />
 
 
 ## ALGORITHM:
@@ -909,6 +920,7 @@ else:
 
 ## OUTPUT:
 
+<img width="380" height="182" alt="image" src="https://github.com/user-attachments/assets/33579b94-003e-48cb-82e5-7e90c89c8c1e" />
 
 
 ## ALGORITHM:
@@ -937,6 +949,8 @@ else:
 ```
 
 ## OUTPUT:
+
+<img width="325" height="180" alt="image" src="https://github.com/user-attachments/assets/d7e59e93-08f3-43eb-bccf-1525ecda91ac" />
 
 
 
@@ -967,6 +981,8 @@ else:
 
 ## OUTPUT:
 
+<img width="350" height="167" alt="image" src="https://github.com/user-attachments/assets/099067c4-9c48-4c4b-974e-83a12ed1ae89" />
+
 
 
 ## ALGORITHM:
@@ -992,6 +1008,8 @@ else:
 ```
 
 ## OUTPUT:
+
+<img width="665" height="217" alt="image" src="https://github.com/user-attachments/assets/3bd3ea3c-bf02-4768-8cee-9d11128a0dbe" />
 
 
 
