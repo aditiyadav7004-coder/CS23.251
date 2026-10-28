@@ -53,8 +53,8 @@ else:
 ```
 
 ## OUTPUT:
-Enter a number: 4
-Positive number
+
+<img width="412" height="265" alt="image" src="https://github.com/user-attachments/assets/26433478-9ac3-41c4-bfe1-849de811850a" />
 
 
 ## ALGORITHM:
@@ -83,10 +83,9 @@ else:
 ```
 
 ## OUTPUT:
-Enter first number: 4
-Enter second number: 3
-Enter third number: 5
-Largest number is 5
+
+<img width="373" height="240" alt="image" src="https://github.com/user-attachments/assets/b0fb314b-00ad-4a31-a1ef-ac2535238dd3" />
+
 
 ## ALGORITHM:
 ```python
@@ -124,8 +123,9 @@ match day:
 ```
 
 ## OUTPUT:
-Enter a number from 1 to 7: 5
-Friday
+
+<img width="425" height="202" alt="image" src="https://github.com/user-attachments/assets/f67e210e-4ec1-4f10-811f-c0a54a5ba7e8" />
+
 
 ## ALGORITHM:
 ```python
@@ -166,16 +166,9 @@ match choice:
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter first number: 4
-Enter second number: 3
-1. Addition
-2. Subtraction
-3. Multiplication
-4. Division
-Enter your choice: 3
-Result = 12.0
->>> 
+
+<img width="380" height="353" alt="image" src="https://github.com/user-attachments/assets/5c823618-d4fd-4966-b9de-e9603c262f1e" />
+
 
 ## ALGORITHM:
 ```python
@@ -197,10 +190,9 @@ for i in range(1, 11):
 ```
 
 ## OUTPUT:
-num = int(input("Enter a number: "))
 
-for i in range(1, 11):
-    print(num, "x", i, "=", num * i)
+<img width="283" height="413" alt="image" src="https://github.com/user-attachments/assets/89e14a67-958b-4255-872e-2cb3b2150224" />
+
 
 
 ## ALGORITHM:
@@ -226,8 +218,10 @@ print("Sum of even numbers =", total)
 ```
 
 ## OUTPUT:
-Enter the value of N: 5
-Sum of even numbers = 6
+
+<img width="471" height="186" alt="image" src="https://github.com/user-attachments/assets/a8c246ff-f015-446b-93e5-41d1e5efe1c8" />
+
+
 
 ## ALGORITHM:
 ```python
@@ -255,10 +249,8 @@ print("Reversed number =", reverse)
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter a number: 451
-Reversed number = 154
->>> 
+
+<img width="450" height="202" alt="image" src="https://github.com/user-attachments/assets/18dd193e-a79f-4198-a0c1-d1e7debeeaf4" />
 
 ## ALGORITHM:
 ```python
@@ -283,14 +275,9 @@ for i in range(1, n + 1):
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter the number of rows: 5
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
->>> 
+
+<img width="423" height="326" alt="image" src="https://github.com/user-attachments/assets/50a24d5a-d8ea-46b2-887e-f38e96f421ef" />
+
 
 ## ALGORITHM:
 ```python
@@ -322,11 +309,8 @@ if not found:
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 4 5 3 21 6 7 5 4 
-Enter element to search: 21
-Element found at position 4
->>> 
+
+<img width="515" height="227" alt="image" src="https://github.com/user-attachments/assets/b8dd1c1b-4ea5-4d96-8406-5f4f49452897" />
 
 ## ALGORITHM:
 ```python
@@ -353,8 +337,8 @@ print("Largest element =", largest)
 ```
 
 ## OUTPUT:
-Enter array elements: 2 3 4 5 6 3 5 6 4 
-Largest element = 6
+
+<img width="565" height="206" alt="image" src="https://github.com/user-attachments/assets/738db4c1-4cfe-447c-bcd1-e03882527b23" />
 
 
 ## ALGORITHM:
@@ -382,10 +366,8 @@ print("Smallest element =", smallest)
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 4 5 6 0 8 2 
-Smallest element = 0
->>> 
+
+<img width="716" height="207" alt="image" src="https://github.com/user-attachments/assets/f37998da-7117-4896-99cc-ffe7ebb52ff7" />
 
 
 ## ALGORITHM:
@@ -416,10 +398,8 @@ print("Ascending order:", arr)
 
 ## OUTPUT:
 
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 3 4 5 76 4 6 8 4 
-Ascending order: [3, 4, 4, 4, 5, 6, 8, 76]
->>> 
+<img width="623" height="187" alt="image" src="https://github.com/user-attachments/assets/f529c329-b83a-4d28-bd12-31441504a537" />
+
 
 
 ## ALGORITHM:
@@ -449,10 +429,8 @@ print("Descending order:", arr)
 
 ## OUTPUT:
 
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 1 2 4 6 4 8 7 56 43 67 23 09 56 00
-Descending order: [67, 56, 56, 43, 23, 9, 8, 7, 6, 4, 4, 2, 1, 0]
->>> 
+<img width="590" height="187" alt="image" src="https://github.com/user-attachments/assets/a17e647e-0ddf-4903-ba8b-88dda7de0f82" />
+
 
 
 ## ALGORITHM:
@@ -478,11 +456,9 @@ print("Updated array:", arr)
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 45 76 89 90 21 98
-Enter element to insert: 30
-Updated array: [45, 76, 89, 90, 21, 98, 30]
->>> 
+
+<img width="682" height="196" alt="image" src="https://github.com/user-attachments/assets/437e444f-0e32-404b-aceb-61ed1e6fe7f1" />
+
 
 
 ## ALGORITHM:
@@ -511,12 +487,9 @@ else:
 ```
 
 ## OUTPUT:
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 23 45 54 65 78 12 34 56 76 
-Enter element to insert: 75
-Enter position: 2
-Updated array: [23, 75, 45, 54, 65, 78, 12, 34, 56, 76]
->>> 
+
+<img width="772" height="282" alt="image" src="https://github.com/user-attachments/assets/a6761d67-3bf1-4f59-8b41-15b879c36a48" />
+
 
 
 ## ALGORITHM:
@@ -544,11 +517,8 @@ else:
 
 ## OUTPUT:
 
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 22 3 56 32 17 30
-Enter position to delete: 1
-Updated array: [3, 56, 32, 17, 30]
->>>
+<img width="610" height="227" alt="image" src="https://github.com/user-attachments/assets/0a968370-4c05-407e-8009-8385c1a37341" />
+
 
 
 ## ALGORITHM:
@@ -576,11 +546,8 @@ else:
 
 ## OUTPUT:
 
->>> %Run -c $EDITOR_CONTENT
-Enter array elements: 3 4 6 1 8 5 4 2 
-Enter value to delete: 4
-Updated array: [3, 6, 1, 8, 5, 4, 2]
->>> 
+<img width="537" height="205" alt="image" src="https://github.com/user-attachments/assets/7464560c-e845-44dd-87ec-103238e4ddd1" />
+
 
 
 ## ALGORITHM:
