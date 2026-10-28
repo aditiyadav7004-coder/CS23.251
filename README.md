@@ -592,9 +592,38 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 
 
-## Assignment 18 - 
+## Assignment 18 - Bellman-Ford Algorithm
 ## CODE:
 ```
+def bellman_ford(graph, vertices, edges, source):
+    distance = [float('inf')] * vertices
+    distance[source] = 0
+
+    for i in range(vertices - 1):
+        for u, v, w in edges:
+            if distance[u] != float('inf') and distance[u] + w < distance[v]:
+                distance[v] = distance[u] + w
+
+    for u, v, w in edges:
+        if distance[u] != float('inf') and distance[u] + w < distance[v]:
+            print("Negative weight cycle detected")
+            return
+
+    print("Vertex\tDistance from Source")
+    for i in range(vertices):
+        print(i, "\t", distance[i])
+
+
+vertices = int(input("Enter number of vertices: "))
+e = int(input("Enter number of edges: "))
+edges = []
+
+for i in range(e):
+    u, v, w = map(int, input("Enter source, destination and weight: ").split())
+    edges.append((u, v, w))
+
+source = int(input("Enter source vertex: "))
+bellman_ford(None, vertices, edges, source)
 
 
 ```
@@ -611,9 +640,49 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 ## FLOWCHART:
 
 
-## Assignment 18 - 
+## Assignment 19 - Dijkstra's Algorithm
 ## CODE:
 ```
+import heapq
+
+def dijkstra(graph, source):
+    distance = {vertex: float('inf') for vertex in graph}
+    distance[source] = 0
+    pq = [(0, source)]
+
+    while pq:
+        dist, vertex = heapq.heappop(pq)
+
+        if dist > distance[vertex]:
+            continue
+
+        for neighbour, weight in graph[vertex]:
+            new_dist = dist + weight
+
+            if new_dist < distance[neighbour]:
+                distance[neighbour] = new_dist
+                heapq.heappush(pq, (new_dist, neighbour))
+
+    print("Vertex\tDistance from Source")
+    for vertex in graph:
+        print(vertex, "\t", distance[vertex])
+
+
+graph = {}
+n = int(input("Enter number of vertices: "))
+
+for i in range(n):
+    graph[i] = []
+
+e = int(input("Enter number of edges: "))
+
+for i in range(e):
+    u, v, w = map(int, input("Enter source, destination and weight: ").split())
+    graph[u].append((v, w))
+    graph[v].append((u, w))
+
+source = int(input("Enter source vertex: "))
+dijkstra(graph, source)
 
 
 ```
@@ -629,9 +698,30 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 20 - Depth First Search (DFS)
 ## CODE:
 ```
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B'],
+    'F': ['C']
+}
+
+def dfs(graph, start, visited=None):
+    if visited is None:
+        visited = set()
+
+    visited.add(start)
+    print(start, end=" ")
+
+    for neighbour in graph[start]:
+        if neighbour not in visited:
+            dfs(graph, neighbour, visited)
+
+dfs(graph, 'A')
 
 
 ```
@@ -647,9 +737,35 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 21 - Breadth First Search (BFS)
 ## CODE:
 ```
+from collections import deque
+
+graph = {
+    'A': ['B', 'C'],
+    'B': ['A', 'D', 'E'],
+    'C': ['A', 'F'],
+    'D': ['B'],
+    'E': ['B'],
+    'F': ['C']
+}
+
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+
+    while queue:
+        vertex = queue.popleft()
+        print(vertex, end=" ")
+
+        for neighbour in graph[vertex]:
+            if neighbour not in visited:
+                visited.add(neighbour)
+                queue.append(neighbour)
+
+bfs(graph, 'A')
 
 
 ```
@@ -665,9 +781,27 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 22 - Graph Creation Using User Input
 ## CODE:
 ```
+graph = {}
+
+n = int(input("Enter number of vertices: "))
+m = int(input("Enter number of edges: "))
+
+for i in range(n):
+    vertex = input("Enter vertex: ")
+    graph[vertex] = []
+
+for i in range(m):
+    u, v = input("Enter edge (u v): ").split()
+    graph[u].append(v)
+    graph[v].append(u)
+
+print("Graph representation:")
+
+for vertex in graph:
+    print(vertex, ":", graph[vertex])
 
 
 ```
@@ -683,9 +817,18 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 23 - Represent Given Directed Graphs
 ## CODE:
 ```
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D'],
+    'C': ['D'],
+    'D': []
+}
+
+for vertex in graph:
+    print(vertex, "->", graph[vertex])
 
 
 ```
@@ -702,9 +845,33 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 ## FLOWCHART:
 
 
-## Assignment 18 - 
+## Assignment 24 - Graph Representation Using Classes and Objects
 ## CODE:
 ```
+class Graph:
+    def __init__(self):
+        self.graph = {}
+
+    def add_edge(self, u, v):
+        if u not in self.graph:
+            self.graph[u] = []
+        if v not in self.graph:
+            self.graph[v] = []
+        self.graph[u].append(v)
+        self.graph[v].append(u)
+
+    def display(self):
+        for vertex in self.graph:
+            print(vertex, ":", self.graph[vertex])
+
+g = Graph()
+
+g.add_edge(0, 1)
+g.add_edge(0, 2)
+g.add_edge(1, 3)
+g.add_edge(2, 3)
+
+g.display()
 
 
 ```
@@ -721,9 +888,21 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 ## FLOWCHART:
 
 
-## Assignment 18 - 
+## Assignment 25 - Fibonacci Series Using Recursion
 ## CODE:
 ```
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+n = int(input("Enter number of terms: "))
+
+if n <= 0:
+    print("Enter a positive number")
+else:
+    for i in range(n):
+        print(fibonacci(i), end=" ")
 
 
 ```
@@ -739,9 +918,20 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 26 - Sum of Numbers Using Recursion
 ## CODE:
 ```
+def sum_numbers(n):
+    if n == 0:
+        return 0
+    return n + sum_numbers(n - 1)
+
+n = int(input("Enter a number: "))
+
+if n < 0:
+    print("Enter a non-negative number")
+else:
+    print("Sum:", sum_numbers(n))
 
 
 ```
@@ -757,9 +947,20 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 27 - Factorial Using Recursion
 ## CODE:
 ```
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+
+n = int(input("Enter a number: "))
+
+if n < 0:
+    print("Factorial is not defined for negative numbers")
+else:
+    print("Factorial:", factorial(n))
 
 
 ```
@@ -775,9 +976,17 @@ Updated array: [3, 6, 1, 8, 5, 4, 2]
 
 ## FLOWCHART:
 
-## Assignment 18 - 
+## Assignment 28 - Delete Element by Value in Array
 ## CODE:
 ```
+arr = list(map(int, input("Enter array elements: ").split()))
+value = int(input("Enter value to delete: "))
+
+if value in arr:
+    arr.remove(value)
+    print("Array after deletion:", arr)
+else:
+    print("Element not found")
 
 
 ```
